@@ -1,0 +1,9 @@
+EMBEDDING_MODEL = "models/text-embedding-004"
+GENERATION_MODEL = "gemini-2.5-flash"
+CHROMA_PATH = "chroma_db"
+DOCS_FOLDER = "docs"
+DATA_FOLDER = "data"
+COLLECTION_NAME = "ops_docs"
+CHUNK_SIZE = 600
+CHUNK_OVERLAP = 100
+TOP_K_RESULTS = 4
