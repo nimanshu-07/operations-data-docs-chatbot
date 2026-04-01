@@ -79,28 +79,25 @@ ops_chatbot/
 
 
 ## Tech Stack
-Python
-SQLite for structured data querying
-ChromaDB for vector storage and retrieval
-Gemini API for question understanding and answer generation
-PDF/TXT ingestion pipeline for document indexing
+
+- **Python**
+- **SQLite** for structured data querying
+- **ChromaDB** for vector storage and retrieval
+- **Gemini API** for question understanding and answer generation
+- **PDF/TXT ingestion pipeline** for document indexing
 
 ---
 
 ## Setup
 
-1. Get a Gemini API Key /
+1. **Get a Gemini API key**  
    Go to Google AI Studio, create an API key, and copy it.
 
-2. Create a .env file /
+2. **Create a `.env` file**  
+   Add your API key:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
 
-   Add your API key: GEMINI_API_KEY=your_api_key_here  /
+```
 
-3. Install dependencies /
-   cd ops_chatbot /
-python3 -m pip install -r requirements.txt / 
 
-4. Run the app /
-   python3 app.py
-
-   ---
