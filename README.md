@@ -55,22 +55,25 @@ data_agent  doc_retriever    ← fetch relevant info
 ---
 
 ## Project Structure
+
+```text
 ops_chatbot/
-├── app.py              ← entry point, chat loop
-├── config.py           ← settings (models, paths, chunk sizes)
-├── data_loader.py      ← CSV → SQLite
-├── doc_ingest.py       ← PDF/TXT → ChromaDB
-├── doc_retriever.py    ← vector similarity search
-├── router.py           ← classifies each question
-├── data_agent.py       ← NL → SQL → natural language answer
-├── generator.py        ← structured JSON output for doc answers
+├── app.py              # entry point, chat loop
+├── config.py           # settings (models, paths, chunk sizes)
+├── data_loader.py      # CSV → SQLite
+├── doc_ingest.py       # PDF/TXT → ChromaDB
+├── doc_retriever.py    # vector similarity search
+├── router.py           # classifies each question
+├── data_agent.py       # NL → SQL → natural language answer
+├── generator.py        # structured JSON output for doc answers
 ├── requirements.txt
 ├── .env
-├── data/               ← put CSV files here
+├── data/               # put CSV files here
 │   ├── incidents.csv
 │   └── deployments.csv
-└── docs/               ← put PDF/TXT files here
+└── docs/               # put PDF/TXT files here
 
+```
 
 ---
 
