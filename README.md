@@ -36,7 +36,9 @@ data_agent  doc_retriever    ← fetch relevant info
 ---
 
 ## Documentation pipeline
-1. PDF and TXT documents are chunked into smaller sections \
-2. Chunks are embedded and stored in ChromaDB \
-3. Relevant chunks are retrieved using similarity search \
-4. Gemini answers using the retrieved context \
+1. PDF and TXT documents are chunked into smaller sections 
+2. Chunks are embedded and stored in ChromaDB 
+3. Relevant chunks are retrieved using similarity search 
+4. Gemini answers using the retrieved context 
+
+---
