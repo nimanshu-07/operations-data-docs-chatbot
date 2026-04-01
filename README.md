@@ -97,7 +97,17 @@ ops_chatbot/
    Add your API key:
    ```env
    GEMINI_API_KEY=your_api_key_here
+   ```
+3. **Install dependencies**
+    ```env
+      python3 -m pip install -r requirements.txt
 
-```
+   ```
 
+4. **Run the app**
+   ```env
+      python3 app.py
 
+   ```
+
+---
