@@ -111,3 +111,40 @@ ops_chatbot/
    ```
 
 ---
+
+
+## Example Queries
+**Structured data queries**
+```env
+      How many open incidents are there?
+Show me all P1 incidents
+Which service had the most incidents?
+Who has done the most deployments?
+Were there any rollbacks?
+  ```
+---
+
+## Commands
+
+| Command | What it does |
+|---|---|
+| `/help` | Show all commands |
+| `/sql` | Show the SQL query from the last data answer |
+| `/sources` | Show which document was used in the last answer |
+| `/reset` | Clear conversation history |
+| `/quit` | Exit the chatbot |
+
+---
+
+
+## Troubleshooting
+
+| Error | Fix |
+|---|---|
+| `GEMINI_API_KEY not set` | Check that your `.env` file contains the real API key |
+| `ModuleNotFoundError` | Run `python3 -m pip install -r requirements.txt` |
+| `No module named 'google'` | Run `python3 -m pip install google-generativeai` |
+| `ChromaDB errors` | Delete the `chroma_db/` folder and restart |
+
+
+---
