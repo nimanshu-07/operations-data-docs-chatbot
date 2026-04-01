@@ -148,3 +148,11 @@ Were there any rollbacks?
 
 
 ---
+
+## Screenshots
+Terminal-based chatbot handling incident lookups, date-based queries, and deployment-related questions over structured operational data.
+
+![Project Screenshot](ss.jpg)
+
+---
+
